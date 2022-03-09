@@ -1,0 +1,11 @@
+<div>
+    <h1>Your Random Beer</h1>
+    <div>
+        {{#with randBeer}}
+        {{> beerInfo}}
+        {{/with}}
+          
+        <p>{{randBeer.food_pairing}}</p>
+        <p>{{randBeer.brewers_tips}}</p>
+    </div>
+</div>
